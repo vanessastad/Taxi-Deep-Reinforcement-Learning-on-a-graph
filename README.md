@@ -10,17 +10,11 @@ Action:
 The number of actions is equal to num_nodes + 2. Notably the actions are to pick up, to drop off and all the possible transitions towards a particular node.
 
 In this specific example:
-
 action 0 means to go to the 0 node
-
 action 1 means to go to the 1 node
-
 ...
-
 action 7 means to go to the 7 node
-
 action 8 means to pick up
-
 action 9 means to dropp off
 
 
