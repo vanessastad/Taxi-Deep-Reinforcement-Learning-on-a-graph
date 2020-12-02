@@ -10,7 +10,6 @@ Action:
 The number of actions is equal to num_nodes + 2. Notably the actions are to pick up, to drop off and all the possible transitions towards a particular node.
 
 In this specific example:
-
 action 0 means to go to the 0 node
 action 1 means to go to the 1 node
 ...
@@ -20,6 +19,7 @@ action 9 means to dropp off
 
 
 Render:
+
 yellow: passenger position
 blue: destination
 green: empty Didi
@@ -29,15 +29,18 @@ orange: pick up or drop off in wrong nodes
 
 Rewards:
 The reward depends on the action
-
 -1 for each allowed action
 -100 if drop off or pick up are executed in wrong nodes
 -100 if the transition is impossible because there is not edge
 +1000 if the Didi drops off the passengerse in the correct dest_node.
 
-It's possible to change the number of nodes. My colleagues and I worked on different problems and we arrived to solve one with 20 nodes.
 
+It's possible to change the number of nodes. My colleagues and I worked on different problems and we arrived to solve one with 20 nodes.
 If you need any information, contact us:
+
 vanessa.staderini@gmail.com
+
 95vittoriar@gmail.com
+
 tommaso3d@gmail.com
+
